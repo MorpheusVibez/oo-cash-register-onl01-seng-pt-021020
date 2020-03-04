@@ -17,7 +17,7 @@ class CashRegister
   def apply_discount
     dis = []
     dis << @discount.to_f / 100
-
+    dis.split
     @total -= dis
   end
 end
