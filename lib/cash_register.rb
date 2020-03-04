@@ -1,9 +1,10 @@
 class CashRegister
-  attr_reader :discount, :total
+  attr_reader :discount, :total :items
 
   def initialize(discount_amount = 0)
     @total = 0
     @discount = discount_amount
+    @items = []
   end
 
   def total=(num)
@@ -25,6 +26,7 @@ class CashRegister
   end
 
   def items
+    @items
 
   end
 end
