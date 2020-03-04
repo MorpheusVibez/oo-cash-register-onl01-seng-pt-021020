@@ -18,5 +18,7 @@ class CashRegister
      disc_percent = @discount.to_f / 100
 
     @total -= (@total * disc_percent)
+
+    puts "After the discount, the total comes to $800."
   end
 end
