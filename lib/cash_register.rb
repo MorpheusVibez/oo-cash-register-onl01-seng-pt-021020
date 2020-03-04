@@ -19,6 +19,6 @@ class CashRegister
 
     @total -= (@total * disc_percent)
 
-    "After the discount, the total comes to #{@total.to_i}."
+    "After the discount, the total comes to $#{@total.to_i}."
   end
 end
