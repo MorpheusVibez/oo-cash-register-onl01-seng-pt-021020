@@ -32,6 +32,6 @@ class CashRegister
   end
 
   def void_last_transaction
-    @items -= @counter
+    @items -= @counter.to_i
   end
 end
